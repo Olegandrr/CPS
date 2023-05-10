@@ -1,22 +1,22 @@
 @font-face {
   font-family: "TT Lakes Bold";
   src: local("TTLakes-Bold"),
-    url("/fonts/TTLakes/TTLakes-Bold.woff") format("woff"), 
-    url("/fonts/TTLakes/TTLakes-Bold.eot") format("eot");
+    url("../CPS/fonts/TTLakes/TTLakes-Bold.woff") format("woff"), 
+    url("../CPS/fonts/TTLakes/TTLakes-Bold.eot") format("eot");
 }
 
 @font-face {
   font-family: "TT Lakes Medium";
   src: local("TTLakes-Medium"),
-    url("/fonts/TTLakes/TTLakes-Medium.woff") format("woff"), 
-    url("/fonts/TTLakes/TTLakes-Medium.eot") format("eot");
+    url("../CPS/fonts/TTLakes/TTLakes-Medium.woff") format("woff"), 
+    url("../CPS/fonts/TTLakes/TTLakes-Medium.eot") format("eot");
 }
 
 @font-face {
   font-family: "TT Lakes Regular";
   src: local("TTLakes-Regular"),
-    url("/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), 
-    url("/fonts/TTLakes/TTLakes-Regular.eot") format("eot");
+    url("../CPS/fonts/TTLakes/TTLakes-Regular.woff") format("woff"), 
+    url("../CPS/fonts/TTLakes/TTLakes-Regular.eot") format("eot");
 }
 
 .header {
@@ -37,33 +37,33 @@
 }
 
 .button--burger--img {
-  background-image: url("/images/burger.svg");
+  background-image: url("../CPS/images/burger.svg");
 }
 
 .button--call--img {
-  background-image: url("/images/call.svg");
+  background-image: url("../CPS/images/call.svg");
 }
 
 .button--repair--img {
-  background-image: url("/images/repair.svg");
+  background-image: url("../CPS/images/repair.svg");
 }
 
 .button--checkstatus--img{
-  background-image: url("/images/checkstatus.svg");
+  background-image: url("../CPS/images/checkstatus.svg");
 }
 
 .button--chat--img {
-  background-image: url("/images/chat.svg");
+  background-image: url("../CPS/images/chat.svg");
 }
 
 .button--profile--img {
-  background-image: url("/images/profile.svg");
+  background-image: url("../CPS/images/profile.svg");
 }
 
 .header__divider {
   height: 32px;
   width: 2px;
-  background-image: url("/images/divider.svg");
+  background-image: url("../CPS/images/divider.svg");
 }
 
 .elements--mobile--none,
@@ -172,7 +172,7 @@
 }
 
 .main__read-more--button--style::before {
-  content: url("/images/read-more.svg");
+  content: url("../CPS/images/read-more.svg");
 }
 
 .main__img-about {
