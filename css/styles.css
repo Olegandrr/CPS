@@ -234,6 +234,11 @@
     display: none;
   }
   
+  .body {
+    width: 1120px;
+    height: auto;
+  }
+  
   .main {
     display: flex;
     flex-wrap: wrap;
